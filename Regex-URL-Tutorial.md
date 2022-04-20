@@ -54,8 +54,6 @@ The A in Apple will be the start of the string as it is preluded with the Caret 
 
 ## Author
 
-Contact me at david.faidley23@gmail.com
+David Faidley
 
 https://github.com/dfaidley23
-
-README Generator
