@@ -38,6 +38,17 @@ The A in Apple will be the start of the string as it is preluded with the Caret 
 
 ### Quantifiers
 
+Quantifiers are used to determine how many times part of your expression can or can't be repeated or even included.
+
+For example:
+~~~
+function validURL(string) {
+   let pattern = new RegExp('^(https?:\/\/)?')
+~~~
+
+This will validate the URL to either include or not inculde the S within HTTPS requests or simply allow it to be an HTTP request.
+
+The reason this works is because the ? Quantifier is the option quantifier and it works simliar to hwo the ? works when you are making a URL within an app and you have option parameters for that URL.
 
 
 ### Grouping Constructs
