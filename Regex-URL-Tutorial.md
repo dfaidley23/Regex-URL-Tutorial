@@ -60,15 +60,29 @@ which will allow these slashes to be used multiple times in the URL string like 
 
 ### Grouping Constructs
 
+
 ### Bracket Expressions
+Bracket Expressions help to identify the characters that are allowed within the expression. A lot of different expressions are possible but below I will show the \w.
+
+in code added \w into a String like this
+~~~
+/\w/
+~~~
+means that any character or digit in the latin alphabet will be matched if they are present.
+
+so the d in dinosaur will be matched for example.
 
 ### Character Classes
 
+
 ### The OR Operator
+
 
 ### Flags
 
+
 ### Character Escapes
+
 
 ## Author
 
