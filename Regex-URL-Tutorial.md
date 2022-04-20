@@ -50,6 +50,13 @@ This will validate the URL to either include or not inculde the S within HTTPS r
 
 The reason this works is because the ? Quantifier is the option quantifier and it works simliar to hwo the ? works when you are making a URL within an app and you have option parameters for that URL.
 
+Another common Quantifiers is the *.
+This Quantifier will allow multiple characters to be used repeatedly such as
+~~~
+*/\
+~~~
+which will allow these slashes to be used multiple times in the URL string like below and it would be a valid URL.
+- https://testURL/URL/Test
 
 ### Grouping Constructs
 
