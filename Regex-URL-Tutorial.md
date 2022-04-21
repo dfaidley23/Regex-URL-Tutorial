@@ -62,11 +62,12 @@ which will allow these slashes to be used multiple times in the URL string like 
 
 
 ### Bracket Expressions
+
 Bracket Expressions help to identify the characters that are allowed within the expression. A lot of different expressions are possible but below I will show the \w.
 
 In code adding \w into a String like this
 ~~~
-/\w/
+[/\w/]
 ~~~
 Means that any character or digit in the latin alphabet will be matched if they are present.
 
@@ -76,16 +77,24 @@ Also for certain characters like the % sign you can use the \W for any character
 
 ### Character Classes
 
+Character classes are a set of characters enclosed in square brackets. In my previous example the \w would be a character class
 
 ### The OR Operator
 
 
 ### Flags
 
+The most common flag is the '/'. This can be seen all over an expression and can be used to define the type of expression.
 
 ### Character Escapes
 
 
+### Sources
+
+- https://www.rexegg.com/regex-quantifiers.html
+- https://www.rexegg.com/regex-anchors.html
+- 
+- 
 ## Author
 
 David Faidley
