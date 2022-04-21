@@ -84,7 +84,8 @@ Character classes are a set of characters enclosed in square brackets. In my pre
 
 ### Flags
 
-The most common flag is the '/'. This can be seen all over an expression and can be used to define the type of expression.
+Flags are a single lowersace alphabetic character used to help searching behavior.
+An example of a flag would be the g glag and this would make the expression search for all occurances of any criteria that you have setup to flag like like if you wish to flag /a you would give it the flag /a/g for the Global flag
 
 ### Character Escapes
 
