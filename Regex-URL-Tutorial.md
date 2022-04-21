@@ -88,13 +88,14 @@ Flags are a single lowersace alphabetic character used to help searching behavio
 An example of a flag would be the g glag and this would make the expression search for all occurances of any criteria that you have setup to flag like like if you wish to flag /a you would give it the flag /a/g for the Global flag
 
 ### Character Escapes
+A character escape is a way to specify the search even more thouroughly like finding a single \ in the string. It will always be prepended with a backslash so this will look like /\\/
 
 
 ### Sources
 
 - https://www.rexegg.com/regex-quantifiers.html
 - https://www.rexegg.com/regex-anchors.html
-- 
+- https://www.codeguage.com/courses/regexp/flags
 - 
 ## Author
 
