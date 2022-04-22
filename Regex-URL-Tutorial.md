@@ -20,6 +20,7 @@ So to begin explaining how the Regex for matching a URL functions I will show yo
 - [The OR Operator](#the-or-operator)
 - [Flags](#flags)
 - [Character Escapes](#character-escapes)
+- [Sources](#sources)
 
 ## Regex Components
 
@@ -60,6 +61,14 @@ which will allow these slashes to be used multiple times in the URL string like 
 
 ### Grouping Constructs
 
+So the main grouping for URL Regex is listed below and broken down in detail.
+~~~
+/^(https?:\/\/)? and ([\da-z\.-]+)\. and ([a-z\.]{2,6}) and ([\/\w \.-]*)*\/?$/
+~~~
+- The first group is the optional http portion. 
+- The second group is looking for any characters that would represnt a domain name.
+- The third group is most commonly seen as a ".com" and is limited to 2-6 characters. 
+- The final group is the filepath or directory specification.
 
 ### Bracket Expressions
 
@@ -96,7 +105,8 @@ A character escape is a way to specify the search even more thouroughly like fin
 - https://www.rexegg.com/regex-quantifiers.html
 - https://www.rexegg.com/regex-anchors.html
 - https://www.codeguage.com/courses/regexp/flags
-- 
+- https://javascript.info/regexp-escaping
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
 ## Author
 
 David Faidley
