@@ -17,7 +17,6 @@ So to begin explaining how the Regex for matching a URL functions I will show yo
 - [Grouping Constructs](#grouping-constructs)
 - [Bracket Expressions](#bracket-expressions)
 - [Character Classes](#character-classes)
-- [The OR Operator](#the-or-operator)
 - [Flags](#flags)
 - [Character Escapes](#character-escapes)
 - [Sources](#sources)
@@ -87,9 +86,6 @@ Also for certain characters like the % sign you can use the \W for any character
 ### Character Classes
 
 Character classes are a set of characters enclosed in square brackets. In my previous example the \w would be a character class
-
-### The OR Operator
-
 
 ### Flags
 
